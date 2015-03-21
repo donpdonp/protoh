@@ -1,5 +1,5 @@
-(module Teensy-LC (layer F.Cu) (tedit 550BA2D4)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module Teensy-LC (layer F.Cu) (tedit 550D47F0)
+  (fp_text reference Teensy-LC (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Teensy-LC (at 0 -0.5) (layer F.Fab)

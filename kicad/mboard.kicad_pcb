@@ -101,9 +101,9 @@
     (uvia_drill 0.1)
   )
 
-  (module modules:ESP8266 (layer F.Cu) (tedit 550B9F6B) (tstamp 550B9FE4)
+  (module modules:ESP8266 (layer F.Cu) (tedit 550D4815) (tstamp 550B9FE4)
     (at 49.53 71.12)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference ESP8266 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ESP8266 (at 0 -0.5) (layer F.Fab)
@@ -123,9 +123,9 @@
     (pad 9 thru_hole circle (at -10.16 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modules:MPU6050 (layer F.Cu) (tedit 550BA1AC) (tstamp 550BA226)
+  (module modules:MPU6050 (layer F.Cu) (tedit 550D481E) (tstamp 550BA226)
     (at 72.39 71.12)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference MPU-6050 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MPU6050 (at 0 -0.5) (layer F.Fab)
@@ -145,9 +145,9 @@
     (pad 8 thru_hole circle (at 10.16 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module modules:Teensy-LC (layer F.Cu) (tedit 550BA2D4) (tstamp 550BA388)
+  (module modules:Teensy-LC (layer F.Cu) (tedit 550D480C) (tstamp 550BA388)
     (at 52.07 50.8)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (fp_text reference Teensy-LC (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Teensy-LC (at 0 -0.5) (layer F.Fab)
@@ -206,8 +206,8 @@
   (gr_line (start 27.94 80.01) (end 88.9 80.01) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 27.94 38.1) (end 27.94 80.01) (angle 90) (layer F.SilkS) (width 0.2))
 
-  (segment (start 36.83 43.18) (end 36.83 40.64) (width 0.25) (layer B.Cu) (net 0) (status 400000))
-  (segment (start 39.37 40.64) (end 39.37 43.18) (width 0.25) (layer B.Cu) (net 0) (tstamp 550D41B7) (status 800000))
   (segment (start 36.83 40.64) (end 39.37 40.64) (width 0.25) (layer B.Cu) (net 0) (tstamp 550D41B2))
+  (segment (start 39.37 40.64) (end 39.37 43.18) (width 0.25) (layer B.Cu) (net 0) (tstamp 550D41B7))
+  (segment (start 36.83 43.18) (end 36.83 40.64) (width 0.25) (layer B.Cu) (net 0))
 
 )
