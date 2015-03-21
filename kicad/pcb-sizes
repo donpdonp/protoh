@@ -1,4 +1,4 @@
-teensy 3: 1.4"(35.5mm) x 0.7"(18mm)
-esp8266: 14.2mm x 24.5mm
-mpu6050: 2.1mm x 1.6mm
+teensy 3: 1.4"(35.5mm) x 0.7"(18mm)  VIN: 3.7-5.5V  (outputs 100mA max)
+esp8266: 14.2mm x 24.5mm  VIN: 2.7-3.6V (up to 300mA, NOT 5V Tolerant)
+mpu6050: 2.1mm x 1.6mm 3.3V-5V
 
