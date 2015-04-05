@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 0.201503190816+5525~22~ubuntu14.10.1-product)
+(kicad_pcb (version 4) (host pcbnew "(after 2015-mar-04 BZR unknown)-product")
 
   (general
     (links 0)
     (no_connects 0)
-    (area 16.680713 32.403 76.157191 59.965001)
+    (area 21.914524 32.403 76.157191 59.965001)
     (thickness 1.6)
     (drawings 5)
     (tracks 114)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -62,7 +62,7 @@
     (pad_drill 1.016)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -215,14 +215,14 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 550E06BC) (tstamp 550DE244)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 551F52B1) (tstamp 550DE244)
     (at 60.96 36.83 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference REF**M4 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M4 (at 0 -3.1 90) (layer F.SilkS)
+    (fp_text value M4 (at 0 -2.3 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -246,14 +246,14 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 550E06B1) (tstamp 550DE20C)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 551F52C5) (tstamp 550DE20C)
     (at 50.8 36.83 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference REF**M3 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M3 (at 0 -3.1 90) (layer F.SilkS)
+    (fp_text value M3 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -277,14 +277,14 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 550DF257) (tstamp 550DE1E9)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 551F52BF) (tstamp 550DE1E9)
     (at 50.8 36.83 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference REF** (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Pin_Header_Straight_1x03 (at 0 -3.1 90) (layer F.Fab) hide
+    (fp_text value "" (at 0 -3.1 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -308,14 +308,14 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 550E06A7) (tstamp 550DE1C6)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 551F52E3) (tstamp 550DE1C6)
     (at 40.64 36.83 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference REF**M2 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M2 (at 0 -3.1 90) (layer F.SilkS)
+    (fp_text value M2 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -412,14 +412,14 @@
     (pad 9 thru_hole circle (at -10.16 -5.08) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 550E0686) (tstamp 550DDEC0)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 551F5273) (tstamp 550DDEC0)
     (at 26.67 46.99)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference 5V (at 0 4.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Pin_Header_Straight_1x02 (at 0 -3.1) (layer F.Fab) hide
+    (fp_text value "" (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -473,14 +473,14 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 550E0698) (tstamp 550DE17E)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 551F52FA) (tstamp 550DE17E)
     (at 30.48 36.83 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (fp_text reference REF**M1 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value M1 (at 0 -3.1 90) (layer F.SilkS)
+    (fp_text value M1 (at 0 -2.1 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 6.85) (layer F.CrtYd) (width 0.05))
@@ -583,9 +583,9 @@
   (segment (start 40.64 53.34) (end 40.64 54.356) (width 0.25) (layer F.Cu) (net 0) (status 10))
   (segment (start 33.02 54.356) (end 33.02 55.88) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF4CD) (status 20))
   (segment (start 40.64 54.356) (end 33.02 54.356) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF4CA))
-  (segment (start 26.67 49.53) (end 28.194 56.134) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 29.464 57.658) (end 69.596 57.15) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF426) (status 20))
-  (segment (start 28.194 56.134) (end 29.464 57.658) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF420))
+  (segment (start 26.67 49.53) (end 28.702 55.88) (width 0.25) (layer F.Cu) (net 0) (status 400010))
+  (segment (start 29.972 57.15) (end 69.596 57.15) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF426) (status 20))
+  (segment (start 28.702 55.88) (end 29.972 57.15) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DF420))
   (segment (start 36.83 48.26) (end 38.1 48.26) (width 0.25) (layer F.Cu) (net 0) (status 20))
   (segment (start 34.29 46.99) (end 36.83 46.99) (width 0.25) (layer F.Cu) (net 0) (status 10))
   (segment (start 36.83 53.34) (end 38.1 53.34) (width 0.25) (layer F.Cu) (net 0) (tstamp 550DEF2A) (status 20))
